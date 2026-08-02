@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the report listed in preferred-citation."
+
+title: "WannaByte"
+
+authors:
+  - family-names: "x0sin0x"
+  - family-names: "x0jacob0x"
+
+version: "1.0.0"
+date-released: "2026-08-02"
+url: "https://github.com/x0jac0b0x/WannaByte"
+
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "x0sin0x"
+    - family-names: "x0jacob0x"
+  title: "WannaByte: A Father & Son Proof of Concept Demonstrating an Insecure OTA Update Process"
+  year: 2026
+  url: "https://github.com/x0jac0b0x/WannaByte/blob/main/WannaByte.pdf"
