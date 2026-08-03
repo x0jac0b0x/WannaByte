@@ -44,9 +44,9 @@ Successful exploitation of the original issue could result in:
 
 | Firmware | Status | Summary |
 |---|---|---|
-| Earlier than **v1.2.9** | Vulnerable | Accepted unauthenticated OTA commands and attacker-supplied firmware locations without sufficient firmware verification. |
-| **v1.2.9** | Partial fix | Restricted updates to approved Beta or Production paths, but the firmware server's TLS identity was not fully verified. |
-| **Beta v1.2.10** | Main takeover path remediated | Added certificate and hostname validation, an embedded GTS Root R4 trust anchor, explicit verification checks, and fail-closed clock synchronization. |
+| Earlier than **Prod v1.2.9** | Vulnerable | Accepted unauthenticated OTA commands and attacker-supplied firmware locations without sufficient firmware verification. |
+| **Prod v1.2.9** | Partial fix | Restricted updates to approved Beta or Production paths, but the firmware server's TLS identity was not fully verified. |
+| **Beta v1.2.10/Prod v1.2.12** | Main takeover path remediated | Added certificate and hostname validation, an embedded GTS Root R4 trust anchor, explicit verification checks, and fail-closed clock synchronization. |
 
 The unauthenticated OTA trigger could still cause repeated reboots in beta v1.2.10, leaving a lower-impact denial-of-service condition.
 
