@@ -10,6 +10,8 @@
 
 The proof of concept showed that affected ESP32-C5 Nodes could accept an unauthenticated OTA command over ESP-NOW, join a sender-controlled Wi-Fi network, download untrusted firmware, and install it without sufficient authenticity or integrity validation.
 
+This was originally written for a school project. This was published publicly with the blessings of the vendor!  
+
 > [Read the full WannaByte white paper](./WannaByte.pdf)
 
 > [Watch the video demonstrating the attack](https://www.youtube.com/watch?v=5DBU0AyRgj4)
