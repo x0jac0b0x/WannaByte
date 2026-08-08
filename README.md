@@ -16,6 +16,8 @@ This was originally written for a school project. This was published publicly wi
 
 > [Watch the video demonstrating the attack](https://www.youtube.com/watch?v=5DBU0AyRgj4)
 
+> [Watch the POC](https://www.youtube.com/watch?v=mv2RDRAQ8kk)
+
 ## Overview
 
 The Biscuit Node communicates with a Biscuit Pro or Biscuit Ultra Core through ESP-NOW. In firmware versions earlier than **v1.2.9**, the Node accepted OTA commands containing Wi-Fi credentials and a firmware URL without verifying that the command came from an authorized Core.
