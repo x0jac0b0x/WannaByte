@@ -13,6 +13,10 @@ Requires: root, a monitor-mode adapter on the Biscuit ESP-NOW channel (6), scapy
     pip install scapy
     sudo ip link set wlan1 down && sudo iw dev wlan1 set type monitor && sudo ip link set wlan1 up
 
+    sudo .venv/bin/uv run --with scapy WannaByte.py --iface wlan1 --channel 6 overcooked
+
+    
+
 Modes:
     overcooked  one-shot broadcast OTA burst (the classic injection)
     flash       unicast OTA to specific node MAC(s)
